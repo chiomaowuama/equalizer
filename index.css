@@ -60,8 +60,58 @@ header{
     width:80%;
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    
+
 }
 @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation : portrait) {
-
+    .first-part{
+        background-image: url("assets/bg-main-desktop.png");
+        background-size:cover;
+        background-position: 90%;
+        height: 100vh;
+        position: relative;
+    }
+    .equaliser{
+        font-family:"IBM Plex Sans" ;
+        padding-top: 8%;
+        padding-left: 6%;
+        font-weight: 900;
+        font-size: 38px;
+        color: black;
+    }
+    .makemusic img{
+        display:none;
+        position: absolute;
+        top: -45px;
+        right:1px;
+        width:22%;
+    }
+    .makemusic{
+        height: 70%;
+        display:block;
+        border: 2px solid green;
+    }
+    .makemusic h2{
+        font-size: 43px;
+        width: 95%;
+        margin-left: 5%;
+        line-height:1.2em;
+        font-family:"IBM Plex Sans" ;
+        border:2px solid red;
+        font-weight: 800;
+        margin-bottom: 9%;
+    }
+    .makemusic p{
+        width:100%;
+        margin: 0 auto;
+        font-size: 18px;
+        font-family:"IBM Plex Sans" ;
+        font-weight: 500;
+        line-height: 2rem;
+        color: #191826;
+    } 
+    .music-h2s{
+        width:100%;
+        /* padding:0 6%; */
+        border:2px solid blue;
+    }
 }
