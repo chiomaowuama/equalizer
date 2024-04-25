@@ -6,7 +6,8 @@
 }
 /* .first-part */
 body{
-    border:2px solid green;
+    /* border:2px solid green; */
+    overflow: hidden;
 }
 .first-part{
     background-image: url("assets/bg-main-desktop.png");
@@ -15,17 +16,51 @@ body{
     background-position-y: 15%;
     height: 100vh;
     border: 2px solid red;
+    position: relative;
 }
 header{
-    border:2px solid green;
+    /* border:2px solid green; */
     font-family: "IBM Plex Sans" ;
 }
 .equaliser{
-    border:2px solid green;
+    border:2px solid red;
+    /* border:2px solid green; */
     font-family:"IBM Plex Sans" ;
-   padding-top: 5%;
-   padding-left: 10%;
-   font-weight: 800;
-   font-size: 27px;
-   color: black;
+    padding-top: 3%;
+    padding-left: 10%;
+    font-weight: 800;
+    font-size: 27px;
+    color: black;
+}
+
+.makemusic{
+    border:2px solid red;
+    height: 70%;
+}
+.makemusic svg{
+    /* border:2px solid red; */
+    position: absolute;
+    top: -45px;
+    right:1px;
+    border:2px solid red;
+    /* width:25%; */
+    /* height: 85%; */
+    
+}
+.makemusic h2{
+    border:2px solid green;
+    font-size: 73px;
+    width: 75%;
+    line-height:0.9em;
+    /* margin-top: 8%; */
+    /* margin-left: 10%; */
+    /* font-family:"IBM Plex Sans" ; */
+}
+.music-h2s{
+    border:2px solid blue;
+    width:75%;
+    
+    display:flex;
+
+
 }
