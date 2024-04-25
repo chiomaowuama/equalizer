@@ -88,22 +88,20 @@ header{
     .makemusic{
         height: 70%;
         display:block;
-        border: 2px solid green;
+        /* border: 2px solid green; */
     }
     .makemusic h2{
         font-size: 43px;
         width: 95%;
-        margin-left: 5%;
         line-height:1.2em;
         font-family:"IBM Plex Sans" ;
-        border:2px solid red;
+        /* border:2px solid red; */
         font-weight: 800;
         margin-bottom: 9%;
     }
     .makemusic p{
-        width:100%;
-        margin: 0 auto;
-        font-size: 18px;
+        width:90%;
+        font-size: 16px;
         font-family:"IBM Plex Sans" ;
         font-weight: 500;
         line-height: 2rem;
@@ -111,7 +109,8 @@ header{
     } 
     .music-h2s{
         width:100%;
-        /* padding:0 6%; */
-        border:2px solid blue;
+        padding-left: 5%;
+        padding-right: 2%;
+        margin-top: 15%;
     }
 }
