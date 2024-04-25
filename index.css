@@ -59,6 +59,14 @@ header{
 .music-h2s{
     width:80%;
 }
+/* the second part */
+.phone-section{
+    border:2px solid red;
+}
+.dark-bg{
+    border:2px solid green;
+
+}
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .first-part{
         background-image: url("assets/bg-main-desktop.png");
