@@ -60,7 +60,50 @@ header{
     width:80%;
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .equaliser{
+        font-family:"IBM Plex Sans" ;
+        padding-top: 3%;
+        padding-left: 10%;
+        font-weight: 900;
+        font-size: 28px;
+        color: black;
+    }
+    
+    .makemusic{
+        height: 70%;
+        display:flex;
+        justify-content: start;
+        align-items: end;
+        border:2px solid green;
+    }
+    .makemusic img{
+        position: absolute;
+        top: -1px;
+        right:-25px;
+        width:32%;
+    }
+    .makemusic h2{
+        font-size: 78px;
+        width: 90%;
+        line-height:0.9em;
+        font-family:"IBM Plex Sans" ;
+        font-weight: 700;
+        margin-bottom: 5%;
+        border:2px solid red
+    }
+    .makemusic p{
+        width:75%;
+        font-size: 18px;
+        font-family:"IBM Plex Sans" ;
+        font-weight: 400;
+        line-height: 2rem;
+        color: #191826;
+    } 
+    .music-h2s{
+        width:100%;
 
+        border:2px solid yellow;
+    }
 }
 @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation : portrait) {
     .first-part{
