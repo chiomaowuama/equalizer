@@ -11,7 +11,7 @@ body{
 .first-part{
     background-image: url("assets/bg-main-desktop.png");
     background-size:cover;
-    background-position-x:-120px;
+    background-position-x:-150px;
     background-position-y: 15%;
     height: 100vh;
     border: 2px solid red;
@@ -19,4 +19,13 @@ body{
 header{
     border:2px solid green;
     font-family: "IBM Plex Sans" ;
+}
+.equaliser{
+    border:2px solid green;
+    font-family:"IBM Plex Sans" ;
+   padding-top: 5%;
+   padding-left: 10%;
+   font-weight: 800;
+   font-size: 27px;
+   color: black;
 }
