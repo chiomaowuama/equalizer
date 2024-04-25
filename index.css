@@ -5,62 +5,63 @@
     padding: none;
 }
 /* .first-part */
-body{
-    /* border:2px solid green; */
+/* body{
     overflow: hidden;
-}
+} */
 .first-part{
     background-image: url("assets/bg-main-desktop.png");
     background-size:cover;
     background-position-x:-150px;
     background-position-y: 15%;
     height: 100vh;
-    border: 2px solid red;
     position: relative;
 }
 header{
-    /* border:2px solid green; */
     font-family: "IBM Plex Sans" ;
 }
 .equaliser{
-    border:2px solid red;
-    /* border:2px solid green; */
     font-family:"IBM Plex Sans" ;
     padding-top: 3%;
     padding-left: 10%;
-    font-weight: 800;
-    font-size: 27px;
+    font-weight: 900;
+    font-size: 28px;
     color: black;
 }
 
 .makemusic{
-    border:2px solid red;
     height: 70%;
+    display:flex;
+    justify-content: center;
+    align-items: end;
 }
-.makemusic svg{
-    /* border:2px solid red; */
+.makemusic img{
     position: absolute;
     top: -45px;
     right:1px;
-    border:2px solid red;
-    /* width:25%; */
-    /* height: 85%; */
-    
+    width:22%;
 }
 .makemusic h2{
-    border:2px solid green;
-    font-size: 73px;
-    width: 75%;
+    font-size: 78px;
+    width: 80%;
     line-height:0.9em;
-    /* margin-top: 8%; */
-    /* margin-left: 10%; */
-    /* font-family:"IBM Plex Sans" ; */
+    font-family:"IBM Plex Sans" ;
+    font-weight: 700;
+    margin-bottom: 5%;
 }
-.music-h2s{
-    border:2px solid blue;
+.makemusic p{
     width:75%;
+    font-size: 18px;
+    font-family:"IBM Plex Sans" ;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #191826;
+} 
+.music-h2s{
+    width:80%;
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     
-    display:flex;
-
+}
+@media only screen and (min-width: 200px) and (max-width: 767px) and (orientation : portrait) {
 
 }
