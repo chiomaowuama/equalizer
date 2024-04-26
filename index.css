@@ -163,6 +163,14 @@ header{
 .button-2:hover{
     background-color: #FFB964;
 }
+/* footer */
+.footer-icons svg{
+    border:2px solid green;
+    fill: #191826;
+}
+.footer-icons svg:hover{
+    fill:red;
+}
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .first-part{
         overflow-x: hidden;
