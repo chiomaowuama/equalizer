@@ -64,7 +64,7 @@ header{
 }
 /* the second part */
 .phone-section{
-    height: 100vh;
+    /* height: 100vh; */
 }
 .black-bg{
     background-image: url("assets/black-bg.png");
@@ -214,6 +214,112 @@ header{
         padding-left: 5%;
         margin-top: 12%;
     }
+    /* the second part */
+.phone-section{
+    /* height: 100vh; */
+}
+.black-bg{
+    background-image: url("assets/black-bg.png");
+    width:90%;
+    background-position-x:40% ;
+    height: 530px;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    display:flex;
+    border:2px solid green;
+
+}
+.the-phone{
+    width: 50%;
+    position: relative;
+
+}
+.the-phone img{
+    width:350px;
+    position: absolute;
+    top:-20%;
+    left:15%
+
+}
+/* the orange form */
+.premium{
+    width:50%;
+    position: relative;
+
+}
+.premium-div{
+    position: absolute;
+    top: 165px;
+    left:-90px;
+    background-color: #FA7453; 
+    width:85%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+    padding:0% 12%;
+    padding-bottom: 7%;
+    padding-top: 10%;
+    font-family:"IBM Plex Sans" ;
+}
+.premium-div h2{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 7%;
+
+}
+.premium-text{
+    color:white;
+    line-height: 1.8rem;
+    font-size: 18px;
+    width:98%;
+}
+.price-p{
+    color:white;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 10% 0;
+}
+.price-p span{
+    font-weight: 400;
+    font-size: 20px;
+}
+.buttons{
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    width: 97%;
+}
+.button-1{
+    border: none;
+    padding: 5% 0;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    color:white;
+    background-color: #191826;
+    
+}
+.button-1:hover{
+    background-color: #66E2DC;
+}
+.button-2{
+    border: none;
+    padding: 5% 0;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    color:#191826;
+    background-color: white;
+
+}
+.button-2:hover{
+    background-color: #FFB964;
+}
+    
 }
 @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation : portrait) {
     .first-part{
@@ -241,8 +347,7 @@ header{
     }
     .makemusic{
         height: 70%;
-        display:block;
-        border:2px solid yellow; 
+        display:block; 
         margin-bottom: 30%;
         padding-bottom: 10%;
         /* border: 2px solid green; */
@@ -272,7 +377,8 @@ header{
     }
     /* the second part */
 .phone-section{
-    height: 100vh;
+    /* height: 100vh; */
+    
     
 }
 .black-bg{
