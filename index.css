@@ -370,6 +370,62 @@ footer{
 .button-2:hover{
     background-color: #FFB964;
 }
+
+/* footer */
+footer{
+    margin-top:25%;
+    padding:8% 0%;
+    margin-bottom: 10%;
+}
+/* footer */
+.footer-div{
+    width:85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:start;
+    flex-wrap: wrap;
+}
+.equalizer-div{
+    /* width:100%; */
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+.footer-equalizer{
+    width:100%;
+    font-family:"IBM Plex Sans" ;
+    /* border:2px solid yellow; */
+    font-weight: 900;
+    font-size: 40px;
+    color: black;
+}
+.footer-smalltext{
+    width:100%;
+    margin-bottom: 8%;
+}
+.footer-smalltext p{
+    width:55%;
+    margin-left: 0%;
+    font-size: 20px;
+    font-family:"IBM Plex Sans" ;
+
+}
+.footer-icons{
+    width:100%;
+    display:flex;
+    justify-content:start;
+    align-items: center;
+    gap: 1rem;
+
+}
+.footer-icons svg{
+    fill: #191826;
+}
+.footer-icons svg:hover{
+    fill:red;
+}
     
 }
 @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation : portrait) {
@@ -533,27 +589,25 @@ footer{
     background-color: #FFB964;
 }
 /* footer */
-.footer-div{
-    border:2px  solid green;
-    margin-top:90%;
-    padding:10% 5%;
+footer{
+    margin-top:95%;
+    padding:8% 0%;
+    margin-bottom: 10%;
 }
 /* footer */
-footer{
-    margin-top: 8%;
-    padding: 3% 0;
-}
 .footer-div{
-    width:80%;
+    width:85%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    align-items:start;
 }
 .equalizer-div{
-    width:20%;
-    margin-top: -3%;
+    width:100%;
+    margin-top: 0%;
+    margin-bottom: 15%;
 }
 .footer-equalizer{
     width:100%;
@@ -561,24 +615,24 @@ footer{
     /* padding-top: 3%; */
     /* padding-left: 10%; */
     font-weight: 900;
-    font-size: 30px;
+    font-size: 40px;
     color: black;
 }
 .footer-smalltext{
-    width:60%
+    width:100%;
+    margin-bottom: 20%;
 }
 .footer-smalltext p{
-    width:45%;
-    margin-left: 5%;
-    font-size: 14px;
+    width:90%;
+    margin-left: 0%;
+    font-size: 16px;
     font-family:"IBM Plex Sans" ;
 
 }
 .footer-icons{
-    /* border:2px solid blue; */
-    width:20%;
+    width:100%;
     display:flex;
-    justify-content: end;
+    justify-content:start;
     align-items: center;
     gap: 1rem;
 
